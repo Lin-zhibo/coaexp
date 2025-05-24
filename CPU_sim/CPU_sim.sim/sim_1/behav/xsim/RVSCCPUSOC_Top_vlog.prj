@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../CODExp/demo/sccpu_fpga/source/FPGATop/MIO_BUS.v" \
+"../../../../CODExp/demo/sccpu_fpga/source/FPGATop/Multi_CH32.v" \
+"../../../../CODExp/demo/sccpu_fpga/source/FPGATop/clk_div.v" \
+"../../../../CODExp/demo/sccpu_sim/source/dm.v" \
+"../../../../CODExp/demo/sccpu_fpga/source/FPGATop/seg7x16.v" \
+"../../../../CODExp/demo/sccpu_fpga/source/FPGATop/RVSCCPU_Top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

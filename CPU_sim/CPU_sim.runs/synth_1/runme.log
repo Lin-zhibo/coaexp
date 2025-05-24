@@ -1,0 +1,40 @@
+
+*** Running vivado
+    with args -log RVSCCPUSOC_Top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source RVSCCPUSOC_Top.tcl
+
+
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source RVSCCPUSOC_Top.tcl -notrace
+Command: synth_design -top RVSCCPUSOC_Top -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 2288
+ERROR: [Synth 8-9263] cannot open include file 'ctrl_encode_def.v' [C:/Users/Kaiserlin/Desktop/COA/CPU_sim/CODExp/demo/sccpu_fpga/source/FPGATop/dm.v:1]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 933.277 ; gain = 443.199
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-9263] cannot open include file 'ctrl_encode_def.v' [C:/Users/Kaiserlin/Desktop/COA/CPU_sim/CODExp/demo/sccpu_fpga/source/FPGATop/dm.v:1]
+INFO: [Synth 8-10285] module 'dm' is ignored due to previous errors [C:/Users/Kaiserlin/Desktop/COA/CPU_sim/CODExp/demo/sccpu_fpga/source/FPGATop/dm.v:23]
+INFO: [Synth 8-9084] Verilog file 'C:/Users/Kaiserlin/Desktop/COA/CPU_sim/CODExp/demo/sccpu_fpga/source/FPGATop/dm.v' ignored due to errors
+ERROR: [Synth 8-439] module 'RVSCCPUSOC_Top' not found
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1039.477 ; gain = 549.398
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+7 Infos, 0 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 17 15:26:59 2025...

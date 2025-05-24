@@ -1,0 +1,81 @@
+C:/Users/Kaiserlin/Desktop/COA/sims/RF.v {1 {vlog -work work -stats=none C:/Users/Kaiserlin/Desktop/COA/sims/RF.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+-- Compiling module RF
+
+Top level modules:
+	RF
+
+} {} {}} C:/Users/Kaiserlin/Desktop/COA/sims/sccomp_tb.v {1 {vlog -work work -stats=none C:/Users/Kaiserlin/Desktop/COA/sims/sccomp_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+-- Compiling module sccomp_tb
+
+Top level modules:
+	sccomp_tb
+
+} {} {}} C:/Users/Kaiserlin/Desktop/COA/sims/ctrl.v {1 {vlog -work work -stats=none C:/Users/Kaiserlin/Desktop/COA/sims/ctrl.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+-- Compiling module ctrl
+
+Top level modules:
+	ctrl
+
+} {} {}} C:/Users/Kaiserlin/Desktop/COA/sims/sccomp.v {1 {vlog -work work -stats=none C:/Users/Kaiserlin/Desktop/COA/sims/sccomp.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+-- Compiling module sccomp
+
+Top level modules:
+	sccomp
+
+} {} {}} C:/Users/Kaiserlin/Desktop/COA/sims/im.v {1 {vlog -work work -stats=none C:/Users/Kaiserlin/Desktop/COA/sims/im.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+-- Compiling module im
+
+Top level modules:
+	im
+
+} {} {}} C:/Users/Kaiserlin/Desktop/COA/sims/ctrl_encode_def.v {1 {vlog -work work -stats=none C:/Users/Kaiserlin/Desktop/COA/sims/ctrl_encode_def.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+
+} {} {}} C:/Users/Kaiserlin/Desktop/COA/sims/dm.v {1 {vlog -work work -stats=none C:/Users/Kaiserlin/Desktop/COA/sims/dm.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+-- Compiling module dm
+
+Top level modules:
+	dm
+
+} {} {}} C:/Users/Kaiserlin/Desktop/COA/sims/EXT.v {1 {vlog -work work -stats=none C:/Users/Kaiserlin/Desktop/COA/sims/EXT.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+-- Compiling module EXT
+
+Top level modules:
+	EXT
+
+} {} {}} C:/Users/Kaiserlin/Desktop/COA/sims/NPC.v {1 {vlog -work work -stats=none C:/Users/Kaiserlin/Desktop/COA/sims/NPC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+-- Compiling module NPC
+
+Top level modules:
+	NPC
+
+} {} {}} C:/Users/Kaiserlin/Desktop/COA/sims/alu.v {1 {vlog -work work -stats=none C:/Users/Kaiserlin/Desktop/COA/sims/alu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/Users/Kaiserlin/Desktop/COA/sims/PC.v {1 {vlog -work work -stats=none C:/Users/Kaiserlin/Desktop/COA/sims/PC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} C:/Users/Kaiserlin/Desktop/COA/sims/SCCPU.v {1 {vlog -work work -stats=none C:/Users/Kaiserlin/Desktop/COA/sims/SCCPU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+-- Compiling module SCCPU
+
+Top level modules:
+	SCCPU
+
+} {} {}}

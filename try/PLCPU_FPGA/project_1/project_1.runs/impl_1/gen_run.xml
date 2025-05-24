@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1747924670">
+  <File Type="ROUTE-PWR" Name="PLCPU_Top_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="PLCPU_Top.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="PLCPU_Top_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="PLCPU_Top_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="PLCPU_Top_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="PLCPU_Top.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="PLCPU_Top_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="PLCPU_Top_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="PLCPU_Top_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="PLCPU_Top_opt.dcp"/>
+  <File Type="OPT-DRC" Name="PLCPU_Top_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="PLCPU_Top.hwdef"/>
+  <File Type="PWROPT-DCP" Name="PLCPU_Top_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="PLCPU_Top_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="PLCPU_Top_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="PLCPU_Top_placed.dcp"/>
+  <File Type="PLACE-IO" Name="PLCPU_Top_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="PLCPU_Top_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="PLCPU_Top_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="PLCPU_Top_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="PLCPU_Top_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="PLCPU_Top_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="PLCPU_Top_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="PLCPU_Top.bin"/>
+  <File Type="PLACE-TIMING" Name="PLCPU_Top_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="PLCPU_Top_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="PLCPU_Top_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="PLCPU_Top_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="PLCPU_Top.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="PLCPU_Top_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="PLCPU_Top_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="PLCPU_Top_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="PLCPU_Top.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="PLCPU_Top_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="PLCPU_Top_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="PLCPU_Top_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="PLCPU_Top_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="PLCPU_Top_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="PLCPU_Top_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="PLCPU_Top_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="PLCPU_Top_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="PLCPU_Top_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="PLCPU_Top_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="PLCPU_Top_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="PLCPU_Top_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="PLCPU_Top_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="PLCPU_Top_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="PLCPU_Top_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="PLCPU_Top_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="PLCPU_Top_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="PLCPU_Top_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="PLCPU_Top_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="PLCPU_Top_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="PLCPU_Top_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="PLCPU_Top_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="PLCPU_Top_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="PLCPUSOC_Top_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="PLCPUSOC_Top_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="PLCPUSOC_Top_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="PLCPUSOC_Top_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="PLCPU_Top.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="PLCPUSOC_Top_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="PLCPUSOC_Top_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="PLCPU_Top.nky"/>
+  <File Type="BITSTR-BMM" Name="PLCPU_Top_bd.bmm"/>
+  <File Type="PDI-FILE" Name="PLCPU_Top.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="PLCPU_Top_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="PLCPU_Top_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="PLCPU_Top.rcfi"/>
+  <File Type="CFI_FILE" Name="PLCPU_Top.cfi"/>
+  <File Type="RNPI_FILE" Name="PLCPU_Top.rnpi"/>
+  <File Type="NPI_FILE" Name="PLCPU_Top.npi"/>
+  <File Type="RBD_FILE" Name="PLCPU_Top.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="PLCPU_Top.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="PLCPU_Top.sysdef"/>
+  <File Type="BG-BGN" Name="PLCPU_Top.bgn"/>
+  <File Type="BG-DRC" Name="PLCPU_Top.drc"/>
+  <File Type="RDI-RDI" Name="PLCPU_Top.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="PLCPU_Top_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="PLCPU_Top_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/plcpuimp/ctrl_encode_def.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../plcpuimp/plcpuimp/ctrl_encode_def.v"/>
+        <Attr Name="ImportTime" Val="1741606650"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/plcpuimp/EXT.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../plcpuimp/plcpuimp/EXT.v"/>
+        <Attr Name="ImportTime" Val="1741249652"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/plcpuimp/MIO_BUS.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../plcpuimp/plcpuimp/MIO_BUS.v"/>
+        <Attr Name="ImportTime" Val="1551203864"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/plcpuimp/Multi_CH32.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../plcpuimp/plcpuimp/Multi_CH32.v"/>
+        <Attr Name="ImportTime" Val="1551527432"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/plcpuimp/NPC.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../plcpuimp/plcpuimp/NPC.v"/>
+        <Attr Name="ImportTime" Val="1741675384"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/plcpuimp/PC.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../plcpuimp/plcpuimp/PC.v"/>
+        <Attr Name="ImportTime" Val="1741523434"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/plcpuimp/PLCPU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../plcpuimp/plcpuimp/PLCPU.v"/>
+        <Attr Name="ImportTime" Val="1742046974"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/plcpuimp/RF.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../plcpuimp/plcpuimp/RF.v"/>
+        <Attr Name="ImportTime" Val="1742046276"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/plcpuimp/alu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../plcpuimp/plcpuimp/alu.v"/>
+        <Attr Name="ImportTime" Val="1741677984"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/plcpuimp/clk_div.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../plcpuimp/plcpuimp/clk_div.v"/>
+        <Attr Name="ImportTime" Val="1572142346"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/plcpuimp/ctrl.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../plcpuimp/plcpuimp/ctrl.v"/>
+        <Attr Name="ImportTime" Val="1741677976"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/plcpuimp/dm.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../plcpuimp/plcpuimp/dm.v"/>
+        <Attr Name="ImportTime" Val="1742046642"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/plcpuimp/hazard.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../plcpuimp/plcpuimp/hazard.v"/>
+        <Attr Name="ImportTime" Val="1741615752"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/plcpuimp/pl_reg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../plcpuimp/plcpuimp/pl_reg.v"/>
+        <Attr Name="ImportTime" Val="1741613168"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/plcpuimp/seg7x16.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../plcpuimp/plcpuimp/seg7x16.v"/>
+        <Attr Name="ImportTime" Val="1551458036"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/plcpuimp/PLCPU_Top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../plcpuimp/plcpuimp/PLCPU_Top.v"/>
+        <Attr Name="ImportTime" Val="1742046086"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../plcpuimp/ctrl_encode_def.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../plcpuimp/EXT.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../plcpuimp/MIO_BUS.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../plcpuimp/Multi_CH32.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../plcpuimp/NPC.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../plcpuimp/PC.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../plcpuimp/PLCPU.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../plcpuimp/RF.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../plcpuimp/alu.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../plcpuimp/clk_div.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../plcpuimp/ctrl.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../plcpuimp/dm.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../plcpuimp/hazard.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../plcpuimp/pl_reg.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../plcpuimp/seg7x16.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../plcpuimp/PLCPU_Top.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../SCCPU_FPGA/SCCPU_SOC.ip_user_files/mem_init_files/riscv_sidascsorting_fpga.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../SCCPU_FPGA/SCCPU_SOC.ip_user_files/mem_init_files/riscv_sidascsorting_fpga2.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="PLCPU_Top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../../SCCPU_FPGA/SCCPU_SOC.srcs/constrs_1/imports/constraints/Nexys4DDR_CPU.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/PLCPUSOC_Top.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="imem"/>
+</GenRun>

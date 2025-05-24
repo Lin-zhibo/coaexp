@@ -1,0 +1,12 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/Kaiserlin/Desktop/COA/CPU_sim/CODExp/demo/sccpu_fpga/source/FPGATop/MIO_BUS.v,1551203864,verilog,,C:/Users/Kaiserlin/Desktop/COA/CPU_sim/CODExp/demo/sccpu_fpga/source/FPGATop/Multi_CH32.v,,MIO_BUS,,,,,,,,
+C:/Users/Kaiserlin/Desktop/COA/CPU_sim/CODExp/demo/sccpu_fpga/source/FPGATop/Multi_CH32.v,1551527432,verilog,,C:/Users/Kaiserlin/Desktop/COA/CPU_sim/CODExp/demo/sccpu_fpga/source/FPGATop/clk_div.v,,Multi_CH32,,,,,,,,
+C:/Users/Kaiserlin/Desktop/COA/CPU_sim/CODExp/demo/sccpu_fpga/source/FPGATop/RVSCCPU_Top.v,1739509722,verilog,,,,RVSCCPUSOC_Top,,,,,,,,
+C:/Users/Kaiserlin/Desktop/COA/CPU_sim/CODExp/demo/sccpu_fpga/source/FPGATop/clk_div.v,1572142346,verilog,,C:/Users/Kaiserlin/Desktop/COA/CPU_sim/CODExp/demo/sccpu_sim/source/dm.v,,clk_div,,,,,,,,
+C:/Users/Kaiserlin/Desktop/COA/CPU_sim/CODExp/demo/sccpu_fpga/source/FPGATop/seg7x16.v,1551458036,verilog,,C:/Users/Kaiserlin/Desktop/COA/CPU_sim/CODExp/demo/sccpu_fpga/source/FPGATop/RVSCCPU_Top.v,,seg7x16,,,,,,,,
+C:/Users/Kaiserlin/Desktop/COA/CPU_sim/CODExp/demo/sccpu_sim/source/ctrl_encode_def.v,1738913496,verilog,,,,,,,,,,,,
+C:/Users/Kaiserlin/Desktop/COA/CPU_sim/CODExp/demo/sccpu_sim/source/dm.v,1739064774,verilog,,C:/Users/Kaiserlin/Desktop/COA/CPU_sim/CODExp/demo/sccpu_fpga/source/FPGATop/seg7x16.v,C:/Users/Kaiserlin/Desktop/COA/CPU_sim/CODExp/demo/sccpu_sim/source/ctrl_encode_def.v,dm,,,,,,,,
+C:/Users/Kaiserlin/Desktop/COA/CPU_sim/CPU_sim.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,

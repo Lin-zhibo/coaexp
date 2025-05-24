@@ -1,0 +1,26 @@
+# compile verilog/system verilog design source files
+verilog dist_mem_gen_v8_0_12  \
+"../../../../final_sim.ip_user_files/ipstatic/simulation/dist_mem_gen_v8_0.v" \
+
+verilog xil_defaultlib  \
+"../../../../../zhangs/SCCPU_FPGA/SCCPU_SOC.srcs/sources_1/ip/imem/sim/imem.v" \
+"../../../../../zhangs/SCCPU_sim_RV32I/source/EXT.v" \
+"../../../../../zhangs/SCCPU_FPGA/SCCPU_SOC.srcs/sources_1/imports/codtest/MIO_BUS.v" \
+"../../../../../zhangs/SCCPU_FPGA/SCCPU_SOC.srcs/sources_1/imports/codtest/Multi_CH32.v" \
+"../../../../../zhangs/SCCPU_sim_RV32I/source/NPC.v" \
+"../../../../../zhangs/SCCPU_sim_RV32I/source/PC.v" \
+"../../../../../zhangs/SCCPU_sim_RV32I/source/RF.v" \
+"../../../../../zhangs/SCCPU_sim_RV32I/source/SCCPU.v" \
+"../../../../../zhangs/SCCPU_sim_RV32I/source/alu.v" \
+"../../../../../zhangs/SCCPU_FPGA/SCCPU_SOC.srcs/sources_1/imports/codtest/clk_div.v" \
+"../../../../../zhangs/SCCPU_sim_RV32I/source/ctrl.v" \
+"../../../../../zhangs/SCCPU_sim_RV32I/source/dm.v" \
+"../../../../../zhangs/SCCPU_FPGA/SCCPU_SOC.ip_user_files/ip/imem/imem_stub.v" \
+"../../../../../zhangs/SCCPU_FPGA/SCCPU_SOC.srcs/sources_1/imports/codtest/seg7x16.v" \
+"../../../../../zhangs/SCCPU_FPGA/SCCPU_SOC.srcs/sources_1/imports/codtest/RVSCCPU_Top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

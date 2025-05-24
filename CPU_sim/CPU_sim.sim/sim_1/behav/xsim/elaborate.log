@@ -1,0 +1,10 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/software/vivado_ML/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot RVSCCPUSOC_Top_behav xil_defaultlib.RVSCCPUSOC_Top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2063] Module <rvsccpu> not found while processing module instance <U_SCCPU> [C:/Users/Kaiserlin/Desktop/COA/CPU_sim/CODExp/demo/sccpu_fpga/source/FPGATop/RVSCCPU_Top.v:40]
+ERROR: [VRFC 10-2063] Module <imem> not found while processing module instance <U_IM> [C:/Users/Kaiserlin/Desktop/COA/CPU_sim/CODExp/demo/sccpu_fpga/source/FPGATop/RVSCCPU_Top.v:54]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
